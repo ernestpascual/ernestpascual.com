@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'tachyons-components'
 import Experience from './Resume-Exp'
 import Competencies from './Resume-Comp'
-import Education from './Resume-Educ'
+// import Education from './Resume-Educ'
 import Competitions from './Resume-Compet'
 import Certifications from './Resume-Cert'
 
