@@ -5,7 +5,7 @@ import Competencies from './ResumeComp'
 // import Education from './Resume-Educ'
 import Competitions from './ResumeCompet'
 import Certifications from './ResumeCert'
-
+import {Link} from "react-router-dom";
 
 
 const Wrapper = styled('div')`
@@ -31,6 +31,7 @@ const Resume = (props) => (
             <Competencies />
             <Competitions />
             <Certifications />
+            <Link to="/resume" ></Link>
         </Wrapper>
 );
 
