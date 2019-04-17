@@ -12,7 +12,7 @@ const Description = styled('div')`f4 fw5 helvetica fl w-40`
 // const Years = styled('div')`f5 fw1 helevetica pb1`
 // const Details = styled('div')`f5 fw3 helvetica fl w-90` 
 
-const Resume = (props) => (
+const ResumeCert = (props) => (
         <Wrapper>
             <Header>Certifications </Header> 
             <ExperienceWrapper>
@@ -36,4 +36,4 @@ const Resume = (props) => (
         </Wrapper>
 );
 
-export default Resume;
+export default ResumeCert;
