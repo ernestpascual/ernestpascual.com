@@ -8,7 +8,7 @@ const ExperienceWrapper = styled('div')`fl w-100 pt2`
 const Header = styled('div')`f3 fw7 helvetica pt3 `
 const Title = styled('div')`f4 fw5 helvetica fl w-50`
 const Description = styled('div')`f4 fw5 helvetica fl w-50`
-const Details = styled('div')`f5 fw3 helvetica fl w-90` 
+const Details = styled('div')`f5 fw3 helvetica fl w-80` 
 
 const Resume = (props) => (
         <Wrapper>

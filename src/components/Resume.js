@@ -25,6 +25,7 @@ const Resume = (props) => (
                 <HeaderDetails>Malate, Manila</HeaderDetails>
                 <HeaderDetails>Home: +63 (02)492-3263</HeaderDetails>
                 <HeaderDetails>Mobile: +63 9985379566 </HeaderDetails>
+                <HeaderDetails>Email: hey@ernestpascual.com </HeaderDetails>
             </Names> 
             <Experience />
             <Competencies />
