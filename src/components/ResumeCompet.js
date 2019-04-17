@@ -4,13 +4,18 @@ import styled from 'tachyons-components'
 const Wrapper = styled('div')`
 fl w-100 
 `
-const ExperienceWrapper = styled('div')`fl w-100 pt2`
-const Header = styled('div')`f3 fw7 helvetica pt3 `
-const Title = styled('div')`f4 fw5 helvetica fl w-50`
-const Description = styled('div')`f4 fw5 helvetica fl w-50`
-const Details = styled('div')`f5 fw3 helvetica fl w-80` 
+const ExperienceWrapper = styled('div')`
+fl w-100 pt2`
+const Header = styled('div')`
+f3 fw7 helvetica pt3 `
+const Title = styled('div')`
+f4 fw5 helvetica fl w-50`
+const Description = styled('div')`
+f4 fw5 helvetica fl w-50`
+const Details = styled('div')`
+f5 fw3 helvetica fl w-80` 
 
-const Resume = (props) => (
+const ResumeCompet = (props) => (
         <Wrapper>
             <Header>Competitions and Seminars </Header> 
             <ExperienceWrapper>
@@ -51,4 +56,4 @@ const Resume = (props) => (
         </Wrapper>
 );
 
-export default Resume;
+export default ResumeCompet;

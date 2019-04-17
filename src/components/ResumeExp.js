@@ -11,7 +11,7 @@ const Description = styled('div')`f4 fw1 helvetica fl w-50`
 const Years = styled('div')`f5 fw1 helevetica pb1`
 const Details = styled('div')`f5 fw1 helvetica fl w-40`
 
-const Resume = (props) => (
+const ResumeExp = (props) => (
         <Wrapper>
             <Header>Experience </Header> 
             <ExperienceWrapper>
@@ -41,4 +41,4 @@ const Resume = (props) => (
         </Wrapper>
 );
 
-export default Resume;
+export default ResumeExp;

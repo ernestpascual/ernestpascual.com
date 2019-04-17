@@ -9,7 +9,7 @@ const Header = styled('div')`f3 fw7 helvetica pt3 `
 const Title = styled('div')`f4 fw5 helvetica`
 const Description = styled('div')`f5 fw1 helvetica fl w-90`
 
-const Resume = (props) => (
+const ResumeComp = (props) => (
         <Wrapper>
             <Header>Competencies</Header> 
             <ExperienceWrapper>
@@ -56,4 +56,4 @@ const Resume = (props) => (
         </Wrapper>
 );
 
-export default Resume;
+export default ResumeComp;

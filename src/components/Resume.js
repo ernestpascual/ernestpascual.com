@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'tachyons-components'
-import Experience from './Resume-Exp'
-import Competencies from './Resume-Comp'
+import Experience from './ResumeExp'
+import Competencies from './ResumeComp'
 // import Education from './Resume-Educ'
-import Competitions from './Resume-Compet'
-import Certifications from './Resume-Cert'
+import Competitions from './ResumeCompet'
+import Certifications from './ResumeCert'
 
 
 
