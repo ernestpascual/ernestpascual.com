@@ -12,8 +12,8 @@ pill b--transparent bg-dark-purple washed-purple
 
 const Home= (props) => (
         <Wrapper>
-                <h1> Hello! </h1>
-                <h4> This site is underconstruction. </h4>
+                <h1> Contact </h1>
+                
         </Wrapper>
 );
 

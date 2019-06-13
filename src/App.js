@@ -6,12 +6,12 @@ import Resume from "./components/Resume"
 
 
 class App extends Component {
-  render() {
+  render() {w
     return (
       <div>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/resume" component={Resume} />
+
         </Switch>
       </div>
     );
