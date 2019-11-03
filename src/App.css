@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('SpaceGrotesk-Regular.woff2') format('woff2'),
+      url('SpaceGrotesk-Regular.woff') format('woff'),
+      url('SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .rotate{
   transform: rotate(-90deg);
 }
@@ -8,7 +17,7 @@
 }
 
 a:hover, a:active {
-  color: purple;
+  color: white;
 }
 
 .temp-push {
@@ -19,4 +28,45 @@ a:hover, a:active {
 
 .particles-size {
   height: 100vh;
+}
+
+.bg-home {
+  background-color: black;
+
+}
+
+.text-color{
+  font-family: 'Space Grotesk';
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  
+}
+
+.text-color:hover {
+  text-decoration: underline;
+
+}
+
+.text-color-me{
+  font-family: 'Space Grotesk';
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+}
+.text-color-me:hover{
+
+  text-decoration: underline;
+  zoom:1.1;
+
+}
+
+.screen-lock{
+  overflow: hidden;
+}
+
+.backward {
+  z-index: -99;
+  position: absolute;
 }

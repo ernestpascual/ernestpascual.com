@@ -6,9 +6,6 @@ const Wrapper = styled('div')`
 bg-black fixed h-100  w-10
 `
 
-const MenuContainer = styled('div')`
-ml5 mt7 pt7
-`
 
 const Menu = styled('a')`
 white helvetica f7 
