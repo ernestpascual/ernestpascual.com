@@ -34,6 +34,31 @@ a:hover, a:active {
   background-color: black;
 
 }
+.dumpling{
+  font-family: 'Space Grotesk';
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  
+}
+
+.dumplingA{
+  font-family: 'Space Grotesk';
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 5pt;
+  
+}
+
+.dumplingB{
+  font-family: 'Space Grotesk';
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 3pt;
+  
+}
 
 .text-color{
   font-family: 'Space Grotesk';

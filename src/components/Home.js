@@ -55,9 +55,50 @@ const AboutMeContainer = styled('div')`
 absolute pt7 mt4 pl5 pl6-m ml6-m mt6-m pl7-l mt6-l
 `
 
+const Dumpling = styled('div')`
+w-100
+`
+const DumplingContainerA = styled('div')`
+absolute nl0
+`
+
+const DumplingContainerB = styled('div')`
+absolute w-100 tr pt7 mt7 ml3
+`
+
+const DumplingContainerC = styled('div')`
+absolute w-100 pt4 mt2 nl3
+`
+
 
 const Home= (props) => (
         <Wrapper className="screen-lock">
+                <DumplingContainerA className="dumplingA">
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                </DumplingContainerA>
+
+                <DumplingContainerB className="dumplingA">
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                </DumplingContainerB>
+{/*
+                <DumplingContainerC className="dumplingB">
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                <Dumpling >DUMPLING</Dumpling>
+                </DumplingContainerC>
+*/}
                 <NavBar>
                         <NavBarMenu className="text-color"  href="http://bit.ly/eepnov19">+ WORK</NavBarMenu>
                         <NavBarMenu className="text-color"  href="https://www.linkedin.com/in/ernestpascual/">+ CONNECT</NavBarMenu>
