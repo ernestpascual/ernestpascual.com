@@ -58,6 +58,11 @@ absolute pt7 mt4 pl5 pl6-m ml6-m mt6-m pl7-l mt6-l
 const Dumpling = styled('div')`
 w-100
 `
+
+const DumplingB = styled('div')`
+w-100 strike
+`
+
 const DumplingContainerA = styled('div')`
 absolute nl0
 `
@@ -75,7 +80,7 @@ const Home= (props) => (
         <Wrapper className="screen-lock">
                 <DumplingContainerA className="dumplingA">
                 <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
+                <DumplingB >DUMPLING</DumplingB>
                 <Dumpling >DUMPLING</Dumpling>
                 <Dumpling >DUMPLING</Dumpling>
                 </DumplingContainerA>
@@ -84,11 +89,11 @@ const Home= (props) => (
                 <Dumpling >DUMPLING</Dumpling>
                 <Dumpling >DUMPLING</Dumpling>
                 <Dumpling >DUMPLING</Dumpling>
+                <DumplingB >DUMPLING</DumplingB>
                 <Dumpling >DUMPLING</Dumpling>
                 <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
+                <DumplingB >DUMPLING</DumplingB>
+                <DumplingB >DUMPLING</DumplingB>
                 </DumplingContainerB>
 {/*
                 <DumplingContainerC className="dumplingB">
