@@ -1,34 +1,6 @@
 import React from 'react';
 import styled from 'tachyons-components'
 
-/*
-const Wrapper = styled('div')`
-fl w-100 w-100-l w-100-m h-100  fixed
-
-`
-const Sphere = styled('img')`
-w-100-m w-100-l ml5-l nt1-l pt7-m
-`
-
-const NavBar = styled('div')`
-mt6-l nr6-l mt6-m fr items-end w-40-l w-40-m 
-`
-
-const NavBarMenu = styled('a')`
-w-10  pl4-l f3-l f4-m pl3-m 
-`
-
-const AboutMe = styled('div')`
-pb1-l f3-l f4-m 
-`
-
-const AboutMeContainer = styled('div')`
-absolute flex-wrap fl-25  mt7-l pt6-l ml6-l pl7-l mt7-m pt7-m ml6-m pl5-m 
-`
-
-*/
-
-
 const Wrapper = styled('div')`
 w-100 fixed h-100
 
