@@ -1,30 +1,36 @@
 import React from 'react';
 import styled from 'tachyons-components'
+import Particles from 'react-particles-js';
+import particlesconfig from './particles.json'
 
 const Wrapper = styled('div')`
 w-100 fixed h-100
 
 `
+/*
 const Sphere = styled('img')`
 w-100 mt6 pt5 mt0-l pt3-l
 
 `
+*/
+
+
 
 const NavBar = styled('div')`
-f7 f5-m f3-l fr pr4 pt4 pr5-m pt5-m pt5-l pr5-l
+f7 f5-m f3-l pt5 pr5-m pt5-m pt5-l pr5-l w-100 flex
 `
 
 const NavBarMenu = styled('a')`
-pl4
+tc w-25
 
 `
 
 const AboutMe = styled('div')`
-f7 f5-m f3-l
+f5 f2-m f1-l
 `
 
 const AboutMeContainer = styled('div')`
-absolute pt7 mt4 pl5 pl6-m ml6-m mt6-m pl7-l mt6-l
+absolute pt6 mt5 pl5 mt7-m ml5-l mt5-l 
 `
 
 const Dumpling = styled('div')`
@@ -42,11 +48,6 @@ absolute nl0
 const DumplingContainerB = styled('div')`
 absolute w-100 tr pt7 mt7 ml3
 `
-
-const DumplingContainerC = styled('div')`
-absolute w-100 pt4 mt2 nl3
-`
-
 
 const Home= (props) => (
         <Wrapper className="screen-lock">
@@ -67,29 +68,21 @@ const Home= (props) => (
                 <DumplingB >DUMPLING</DumplingB>
                 <DumplingB >DUMPLING</DumplingB>
                 </DumplingContainerB>
-{/*
-                <DumplingContainerC className="dumplingB">
-                <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
-                <Dumpling >DUMPLING</Dumpling>
-                </DumplingContainerC>
-*/}
-                <NavBar>
-                        <NavBarMenu className="text-color"  href="http://bit.ly/eepnov19">+ WORK</NavBarMenu>
-                        <NavBarMenu className="text-color"  href="https://www.linkedin.com/in/ernestpascual/">+ CONNECT</NavBarMenu>
-                        <NavBarMenu className="text-color"  href="https://github.com/ernestpascual/">+ GITHUB</NavBarMenu>
+                <NavBar class="navbar">
+                        <NavBarMenu className="text-color"  target="_blank" href="http://bit.ly/eepnov19">+ WORK</NavBarMenu>
+                        <NavBarMenu className="text-color"  target="_blank" href="https://www.linkedin.com/in/ernestpascual/">+ CONNECT</NavBarMenu>
+                        <NavBarMenu className="text-color"  target="_blank" href="https://github.com/ernestpascual/">+ GITHUB</NavBarMenu>
+                        <NavBarMenu className="text-color"  target="_blank" href="https://medium.com/@ernestpascual">+ MEDIUM</NavBarMenu>
                 </NavBar>
-                <AboutMeContainer>
-                <AboutMe className="text-color-me">HI, I'M ERNEST. </AboutMe>
-                <AboutMe className="text-color-me">I DO THINGS. </AboutMe>
-                <AboutMe className="text-color-me">LIKE TECHIES AND WEBBIES. </AboutMe>
-                <AboutMe className="text-color-me">I DEVELOP BLOCKCHAIN APPS SOMETIMES. </AboutMe>
-                <AboutMe className="text-color-me">I LOVE BREAD AND DUMPLINGS. </AboutMe>
+                <AboutMeContainer className="about-me">
+                <AboutMe className="text-color-me">HI, I'M <u>ERNEST</u>.</AboutMe>
+                <AboutMe className="text-color-me">I DO <u>WEBSITES</u> AND</AboutMe>
+                <AboutMe className="text-color-me">OTHER TECH STUFF. </AboutMe>
+                <AboutMe className="text-color-me">I DEVELOP <u>BLOCKCHAIN</u> APPS.</AboutMe>
+                <AboutMe className="text-color-me">I LOVE BREAD AND <u>DUMPLINGS</u>.</AboutMe>
                 </AboutMeContainer>
-                <Sphere src="images/sphere.png" alt="sphere"  className="backward"/>
-        </Wrapper>
+                <Particles params={particlesconfig} className="dandruff" />
+        </Wrapper>  
 );
 
 

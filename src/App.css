@@ -80,9 +80,9 @@ a:hover, a:active {
   letter-spacing: 1px;
 
 }
-.text-color-me:hover{
-  zoom:1.1;
 
+u:hover{
+  zoom:1.2;
 }
 
 .screen-lock{
@@ -90,6 +90,21 @@ a:hover, a:active {
 }
 
 .backward {
-  z-index: -99;
+  z-index: 0;
   position: absolute;
+}
+
+.dandruff {
+  position:absoulte;
+  width: 100vw;
+  height: 100vh;
+  z-index: 15;
+}
+
+.about-me{
+  z-index:30;
+}
+
+.navbar {
+  z-index: 70;
 }
