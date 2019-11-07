@@ -14,8 +14,6 @@ w-100 mt6 pt5 mt0-l pt3-l
 `
 */
 
-
-
 const NavBar = styled('div')`
 f7 f5-m f3-l pt5 pr5-m pt5-m pt5-l pr5-l w-100 flex
 `

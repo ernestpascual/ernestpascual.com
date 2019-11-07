@@ -1,5 +1,6 @@
 {
   "name": "ernestpascual.com",
+  "author" : "Ernest Pascual",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
