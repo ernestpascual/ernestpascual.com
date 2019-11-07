@@ -1,6 +1,6 @@
 # ernestpascual.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8f9dd1f4-01ff-4638-8607-e892c4d6d85d/deploy-status)](https://app.netlify.com/sites/pensive-curie-19a01c/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f8407c5e-466f-4313-a88c-638c3c4b0438/deploy-status)](https://app.netlify.com/sites/epic-panini-660c7a/deploys)
 
 Personal portfolio website
 
