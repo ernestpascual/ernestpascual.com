@@ -68,20 +68,20 @@ const Home= (props) => (
                 <DumplingB >DUMPLING</DumplingB>
                 <DumplingB >DUMPLING</DumplingB>
                 </DumplingContainerB>
-                <NavBar class="navbar">
-                        <NavBarMenu className="text-color"  target="_blank" href="http://bit.ly/eepnov19">+ WORK</NavBarMenu>
-                        <NavBarMenu className="text-color"  target="_blank" href="https://www.linkedin.com/in/ernestpascual/">+ CONNECT</NavBarMenu>
-                        <NavBarMenu className="text-color"  target="_blank" href="https://github.com/ernestpascual/">+ GITHUB</NavBarMenu>
-                        <NavBarMenu className="text-color"  target="_blank" href="https://medium.com/@ernestpascual">+ MEDIUM</NavBarMenu>
+                <NavBar class="navbar ">
+                        <NavBarMenu className="text-color animated fadeIn delay-2s"  target="_blank" href="http://bit.ly/eepnov19">+ WORK</NavBarMenu>
+                        <NavBarMenu className="text-color animated fadeIn delay-2s"  target="_blank" href="https://www.linkedin.com/in/ernestpascual/">+ CONNECT</NavBarMenu>
+                        <NavBarMenu className="text-color animated fadeIn delay-2s"  target="_blank" href="https://github.com/ernestpascual/">+ GITHUB</NavBarMenu>
+                        <NavBarMenu className="text-color animated fadeIn delay-2s"  target="_blank" href="https://medium.com/@ernestpascual">+ MEDIUM</NavBarMenu>
                 </NavBar>
-                <AboutMeContainer className="about-me">
-                <AboutMe className="text-color-me">HI, I'M <u>ERNEST</u>.</AboutMe>
-                <AboutMe className="text-color-me">I DO <u>WEBSITES</u> AND</AboutMe>
-                <AboutMe className="text-color-me">OTHER TECH STUFF. </AboutMe>
-                <AboutMe className="text-color-me">I DEVELOP <u>BLOCKCHAIN</u> APPS.</AboutMe>
-                <AboutMe className="text-color-me">I LOVE BREAD AND <u>DUMPLINGS</u>.</AboutMe>
+                <AboutMeContainer className="about-me ">
+                <AboutMe className="text-color-me animated fadeIn slow delay-1s">HI, I'M <u>ERNEST</u>.</AboutMe>
+                <AboutMe className="text-color-me animated fadeIn slow delay-1s">I DO <u>WEBSITES</u> AND</AboutMe>
+                <AboutMe className="text-color-me animated fadeIn slow delay-1s">OTHER TECH STUFF. </AboutMe>
+                <AboutMe className="text-color-me animated fadeIn slow delay-1s">I DEVELOP <u>BLOCKCHAIN</u> APPS.</AboutMe>
+                <AboutMe className="text-color-me animated fadeIn slow delay-1s">I LOVE BREAD AND <u>DUMPLINGS</u>.</AboutMe>
                 </AboutMeContainer>
-                <Particles params={particlesconfig} className="dandruff" />
+                <Particles params={particlesconfig} className="dandruff animated fadeIn" />
         </Wrapper>  
 );
 
